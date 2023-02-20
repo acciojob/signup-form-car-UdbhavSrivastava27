@@ -8,49 +8,37 @@
 
 <body>
 	<form method="post" target="_blank">
-	<div>	
-  <label for="name">Name*</label>
-  <input type="text" id="name" name="name" required>
-	</div>
-  <div>
-  <label for="email">Email*</label>
-  <input type="email" id="email" name="email" required>
-  </div>
+	<div><label for="name">Name*</label>
+  <input type="text" required id="name" ></div>
+  <div><label for="email">Email*</label>
+  <input type="email" id="email" required></div>
   <div>
   <label for="gender">Gender*</label>
-  <label for="male">Male</label>
-  <input type="radio" id="male" name="gender" value="male" required>
-  <br>
-  <label for="female">Female</label>
-  <input type="radio" id="female" name="gender" value="female" required>
-  <br>
-  <label for="other">Other</label>
-  <input type="radio" id="other" name="gender" value="other" required>
-  <br>
+  <input type="radio" id="gender" name="gender" required>
+  <input type="radio" id="gender" name="gender" required>
   </div>
   <div>
   <label for="cars">Car Brands</label>
-  <select id="cars" name="carbrand">
-    <option value="BMW">BMW</option>
-    <option value="Audi">Audi</option>
-    <option value="Mercedez">Mercedez</option>
+  <select id="cars">
+    <option value="bmw">BMW</option>
+    <option value="audi">Audi</option>
+    <option value="mercedez">Mercedez</option>
   </select>
   </div>
 <div>
-	<label for="carage">Age*</label>
+	<label for="carage">Car Age*</label>
   <input type="number" id="carage" name="carage" required min="0">
 </div>
-		<div>
+<div>
   <label for="dop">DOP*</label>
   <input type="date" id="dop" required>
-		</div>
-<div>
-
-  <label for="password">Password*</label>
-  <input type="password" id="password" name="password" required>
 </div>
 <div>
-  <button type="submit">submit button</button>
+  <label for="password">Password*</label>
+  <input type="password" id="password" required>
+</div>
+<div>
+  <button type="submit" value="Submit">submit button
 </div>
 </form>
 
